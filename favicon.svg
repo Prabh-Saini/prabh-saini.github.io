@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img">
+  <title>Prabh Saini favicon</title>
+  <desc>A geometric camera lens connected by four precise circuit traces.</desc>
+  <defs>
+    <linearGradient id="accent" x1="30" y1="28" x2="98" y2="102" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#79E6D0"/>
+      <stop offset=".52" stop-color="#A4ABB5"/>
+      <stop offset="1" stop-color="#F2A65A"/>
+    </linearGradient>
+    <radialGradient id="glass" cx="0" cy="0" r="1" gradientTransform="translate(54 51) rotate(49) scale(41)">
+      <stop stop-color="#343B45"/>
+      <stop offset="1" stop-color="#11151A"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="4" y="4" width="120" height="120" rx="30" fill="#0B0D10"/>
+  <rect x="5" y="5" width="118" height="118" rx="29" fill="none" stroke="#343B45" stroke-width="2"/>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M13 64h20m62 0h20M64 13v20m0 62v20" stroke="#F3F0E8" stroke-width="6"/>
+    <path d="M14 64h19m62 0h19M64 14v19m0 62v19" stroke="url(#accent)" stroke-width="3"/>
+  </g>
+
+  <g fill="#F3F0E8">
+    <circle cx="14" cy="64" r="5"/>
+    <circle cx="114" cy="64" r="5"/>
+    <circle cx="64" cy="14" r="5"/>
+    <circle cx="64" cy="114" r="5"/>
+  </g>
+
+  <circle cx="64" cy="64" r="34" fill="#15191F" stroke="#0B0D10" stroke-width="8"/>
+  <circle cx="64" cy="64" r="31" fill="url(#glass)" stroke="url(#accent)" stroke-width="4"/>
+  <path d="m64 41 19.9 11.5v23L64 87 44.1 75.5v-23L64 41Z" fill="none" stroke="#F3F0E8" stroke-width="5" stroke-linejoin="round"/>
+  <circle cx="64" cy="64" r="10" fill="#0B0D10" stroke="url(#accent)" stroke-width="5"/>
+  <circle cx="60" cy="60" r="3" fill="#F3F0E8"/>
+</svg>

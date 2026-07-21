@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" fill="none">
+  <g stroke="#A4ABB5">
+    <path d="M16 0v160M32 0v160M48 0v160M64 0v160M80 0v160M96 0v160M112 0v160M128 0v160M144 0v160" stroke-opacity=".045"/>
+    <path d="M0 16h160M0 32h160M0 48h160M0 64h160M0 80h160M0 96h160M0 112h160M0 128h160M0 144h160" stroke-opacity=".045"/>
+    <path d="M80 0v160M0 80h160" stroke-opacity=".12"/>
+    <path d="M.5 0v160M159.5 0v160M0 .5h160M0 159.5h160" stroke-opacity=".18"/>
+  </g>
+  <g fill="#79E6D0">
+    <circle cx="80" cy="80" r="2" fill-opacity=".28"/>
+    <circle cx="0" cy="0" r="2" fill-opacity=".2"/>
+    <circle cx="160" cy="0" r="2" fill-opacity=".2"/>
+    <circle cx="0" cy="160" r="2" fill-opacity=".2"/>
+    <circle cx="160" cy="160" r="2" fill-opacity=".2"/>
+  </g>
+  <path d="M72 80h16M80 72v16" stroke="#F2A65A" stroke-opacity=".24" stroke-linecap="round"/>
+</svg>

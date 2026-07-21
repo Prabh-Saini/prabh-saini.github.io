@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1067" viewBox="0 0 1600 1067" role="img" aria-labelledby="title description">
+  <title id="title">Blueprint to reality landscape placeholder</title>
+  <desc id="description">A polished neutral three-by-two placeholder moving from a technical blue grid to softly lit architectural forms.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10212c"/>
+      <stop offset="0.46" stop-color="#24495a"/>
+      <stop offset="0.62" stop-color="#8a948f"/>
+      <stop offset="1" stop-color="#ddd5c8"/>
+    </linearGradient>
+    <linearGradient id="transition" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#88d5e5" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#d9f4ef" stop-opacity="0.48"/>
+      <stop offset="1" stop-color="#fff4df" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" fill="none" stroke="#8bd4df" stroke-opacity="0.18" stroke-width="1"/>
+      <path d="M16 0V64M32 0V64M48 0V64M0 16H64M0 32H64M0 48H64" fill="none" stroke="#8bd4df" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <filter id="soft-shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="20"/>
+      <feOffset dy="24"/>
+      <feColorMatrix values="0 0 0 0 0.03 0 0 0 0 0.08 0 0 0 0 0.1 0 0 0 .28 0"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1600" height="1067" fill="url(#background)"/>
+  <rect width="900" height="1067" fill="url(#grid)"/>
+  <path d="M0 824 318 648l250 104 265-221 261 149v387H0Z" fill="#07131a" fill-opacity="0.24"/>
+  <g fill="none" stroke="#b5edf1" stroke-opacity="0.62" stroke-width="3">
+    <path d="M104 804 410 420l338 150 218-282"/>
+    <path d="M104 804h862V288M410 420v384M748 570v234"/>
+    <circle cx="410" cy="420" r="118"/>
+    <circle cx="410" cy="420" r="82" stroke-dasharray="12 14"/>
+    <path d="M276 310h268M276 330h268M970 252v594" stroke-opacity="0.26" stroke-width="1"/>
+  </g>
+  <g filter="url(#soft-shadow)">
+    <path d="M922 788 1108 450h214l164 338Z" fill="#f1eadf" fill-opacity="0.84"/>
+    <path d="m1108 450 106-132h158l114 470h-164Z" fill="#9ca9a5" fill-opacity="0.8"/>
+    <path d="m1214 318 158 0-50 470h-214Z" fill="#536a6d" fill-opacity="0.78"/>
+    <rect x="1058" y="690" width="376" height="98" rx="49" fill="#d8d1c5"/>
+  </g>
+  <rect x="650" width="460" height="1067" fill="url(#transition)"/>
+  <path d="M800 112v843" stroke="#f3fbf7" stroke-opacity="0.5" stroke-dasharray="4 18"/>
+  <g fill="#eff9f6" font-family="Arial, sans-serif" letter-spacing="5">
+    <text x="104" y="108" font-size="24">BLUEPRINT / REALITY</text>
+    <text x="104" y="966" font-size="18" fill-opacity="0.72">3:2 PLACEHOLDER &#8212; REPLACE BEFORE LAUNCH</text>
+  </g>
+</svg>

@@ -1,0 +1,5 @@
+# Crawling is allowed for the static portfolio.
+User-agent: *
+Allow: /
+
+Sitemap: https://prabhsaini.au/sitemap-index.xml

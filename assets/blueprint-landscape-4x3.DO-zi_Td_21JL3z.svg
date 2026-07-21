@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200" role="img" aria-labelledby="title description">
+  <title id="title">Blueprint to reality four-by-three placeholder</title>
+  <desc id="description">A neutral four-by-three placeholder blending an aerial contour drawing into layered terrain-like surfaces.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101f29"/>
+      <stop offset="0.48" stop-color="#315768"/>
+      <stop offset="0.7" stop-color="#8b9991"/>
+      <stop offset="1" stop-color="#d9d2c6"/>
+    </linearGradient>
+    <radialGradient id="terrain" cx="72%" cy="55%" r="58%">
+      <stop offset="0" stop-color="#e8e0d3"/>
+      <stop offset="0.52" stop-color="#a9aea3"/>
+      <stop offset="1" stop-color="#526b68"/>
+    </radialGradient>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0V80" fill="none" stroke="#9cdae4" stroke-opacity="0.15"/>
+      <circle cx="0" cy="0" r="3" fill="#b8edf1" fill-opacity="0.22"/>
+    </pattern>
+    <filter id="shadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="18"/>
+      <feOffset dy="18"/>
+      <feColorMatrix values="0 0 0 0 0.02 0 0 0 0 0.06 0 0 0 0 0.08 0 0 0 .3 0"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1600" height="1200" fill="url(#background)"/>
+  <rect width="870" height="1200" fill="url(#grid)"/>
+  <g fill="none" stroke="#b9edf0" stroke-width="3" stroke-opacity="0.64">
+    <path d="M102 700c118-224 268-355 454-347 174 8 246 160 222 299-22 132-152 211-290 178-119-29-152-131-87-206 54-62 157-55 200 9"/>
+    <path d="M58 770c145-307 354-479 581-434 230 45 319 280 222 467-85 164-306 220-455 112-116-85-130-254-14-349 95-79 250-60 316 44"/>
+    <path d="M20 858c162-398 458-604 755-488 282 110 344 454 137 654" stroke-opacity="0.31"/>
+    <path d="M178 258h470M178 282h470M414 176v786" stroke-width="1" stroke-dasharray="8 12"/>
+  </g>
+  <g filter="url(#shadow)">
+    <path d="M750 1004c63-290 222-516 480-607 119-42 244-30 370 36v567Z" fill="url(#terrain)"/>
+    <path d="M844 1000c72-205 192-346 359-421 145-66 277-58 397 24v397Z" fill="#d9d3c6" fill-opacity="0.42"/>
+    <path d="M1012 1000c51-137 137-231 259-282 116-48 225-39 329 28v254Z" fill="#566c68" fill-opacity="0.4"/>
+  </g>
+  <path d="M796 0v1200" stroke="#eff9f5" stroke-opacity="0.58" stroke-dasharray="5 19"/>
+  <circle cx="796" cy="598" r="92" fill="#e8f4ee" fill-opacity="0.12" stroke="#edf9f4" stroke-opacity="0.44"/>
+  <circle cx="796" cy="598" r="12" fill="#edf9f4" fill-opacity="0.8"/>
+  <g fill="#eff9f6" font-family="Arial, sans-serif" letter-spacing="5">
+    <text x="104" y="112" font-size="24">CONTOUR / TERRAIN</text>
+    <text x="104" y="1095" font-size="18" fill-opacity="0.72">4:3 PLACEHOLDER &#8212; REPLACE BEFORE LAUNCH</text>
+  </g>
+</svg>

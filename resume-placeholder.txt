@@ -1,0 +1,14 @@
+PRABH SAINI — RESUME PLACEHOLDER
+=================================
+
+THIS FILE IS REPLACEMENT CONTENT. IT IS NOT A RESUME.
+
+Before publishing a resume link:
+
+1. Replace this file with the approved, accessible resume (normally a text-readable PDF).
+2. Remove private metadata and any details that should not be public.
+3. Use a stable filename and update the corresponding site link and download name.
+4. Test the final file from both root and project-repository GitHub Pages URLs.
+5. Delete this placeholder when it is no longer needed.
+
+No employment, education, contact, project, or other identity details are included here intentionally.

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title description">
+  <title id="title">Blueprint to reality portrait placeholder</title>
+  <desc id="description">A refined four-by-five placeholder transitioning from elevation drawings into softly illuminated vertical forms.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10212b"/>
+      <stop offset="0.5" stop-color="#2c5261"/>
+      <stop offset="0.7" stop-color="#8d9994"/>
+      <stop offset="1" stop-color="#ded5c7"/>
+    </linearGradient>
+    <linearGradient id="tower" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ebe4d9"/>
+      <stop offset="0.48" stop-color="#a7afaa"/>
+      <stop offset="1" stop-color="#40575d"/>
+    </linearGradient>
+    <linearGradient id="transition" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#bde9ec" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#eaf4ed" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#ffeed4" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0V60" fill="none" stroke="#9edce5" stroke-opacity="0.16"/>
+      <path d="M15 0V60M30 0V60M45 0V60M0 15H60M0 30H60M0 45H60" fill="none" stroke="#9edce5" stroke-opacity="0.045"/>
+    </pattern>
+    <filter id="shadow" x="-30%" y="-20%" width="180%" height="150%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="20"/>
+      <feOffset dy="25"/>
+      <feColorMatrix values="0 0 0 0 0.02 0 0 0 0 0.06 0 0 0 0 0.08 0 0 0 .35 0"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#background)"/>
+  <rect width="670" height="1500" fill="url(#grid)"/>
+  <g fill="none" stroke="#b7eaf0" stroke-width="3" stroke-opacity="0.65">
+    <path d="M116 1260V354h388v906M116 446h388M116 600h388M116 754h388M116 908h388M116 1062h388"/>
+    <path d="M170 354V248h280v106M310 248V130M246 130h128"/>
+    <path d="M82 1304h524M82 1328h524M84 292h472" stroke-width="1" stroke-dasharray="8 13"/>
+    <circle cx="310" cy="754" r="118" stroke-dasharray="13 15"/>
+    <path d="M310 612v284M168 754h284"/>
+  </g>
+  <g filter="url(#shadow)">
+    <path d="M594 1260V410h386v850Z" fill="url(#tower)"/>
+    <path d="M690 410V264h194v146Z" fill="#d8d2c7" fill-opacity="0.78"/>
+    <path d="M736 264V166h102v98Z" fill="#667a79"/>
+    <g fill="#f5eee2" fill-opacity="0.45">
+      <rect x="654" y="500" width="266" height="78" rx="8"/>
+      <rect x="654" y="638" width="266" height="78" rx="8"/>
+      <rect x="654" y="776" width="266" height="78" rx="8"/>
+      <rect x="654" y="914" width="266" height="78" rx="8"/>
+      <rect x="654" y="1052" width="266" height="78" rx="8"/>
+    </g>
+  </g>
+  <rect x="450" width="420" height="1500" fill="url(#transition)"/>
+  <path d="M600 118v1264" stroke="#f3faf6" stroke-opacity="0.58" stroke-dasharray="5 18"/>
+  <g fill="#eff9f6" font-family="Arial, sans-serif" letter-spacing="5">
+    <text x="86" y="92" font-size="22">ELEVATION / LIGHT</text>
+    <text x="86" y="1410" font-size="16" fill-opacity="0.72">4:5 PLACEHOLDER &#8212; REPLACE BEFORE LAUNCH</text>
+  </g>
+</svg>
